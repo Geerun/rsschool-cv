@@ -46,11 +46,31 @@
             <h1 class="name_string">Eugene Doroshenko</h1>
             <div class="profline"><h3 class="profession_string">Junior Frontend Developer</h3></div>
             <h3 class="nickname_string">Nickname: Geerun</h3>
-            <h3>Me</h3>
-            <p class="text1">In 2002, I studied to be a programmer, but I didn't work in my specialty. Until 2020, it was just my hobby. Now I seriously intend to recover in the profession. Become a developer. This is a surprisingly interesting case. I start my journey with RS School.</p>
+            <h3 class="text1">Me</h3>
+            <p>In 2002, I studied to be a programmer, but I didn't work in my specialty. Until 2020, it was just my hobby. Now I seriously intend to recover in the profession. Become a developer. This is a surprisingly interesting case. I start my journey with RS School.</p>
             <h3>Objective</h3>
             <p class="text2">Change the current position. Become a Web developer. Change my life.</p>
             <h3>Code example</h3>
+                <h4>Deactivating the right mouse button</h4>
+            <pre>
+            function f1() {
+                if(document.all) { return false; }
+              }
+              function f2(e) {
+                if(document.layers || (document.getElementById &! document.all)) {
+                  if(e.which==2 || e.which==3) { return false; }
+                }
+              }
+              if(document.layers) {
+                document.captureEvents(Event.MOUSEDOWN);
+                document.onmousedown = f1;
+              }
+              else {
+                document.onmouseup = f2;
+                document.oncontextmenu = f1;
+              }
+              document.oncontextmenu = new function("return false");
+          </pre>
 
            
     </section>
