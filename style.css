@@ -114,7 +114,7 @@ body {
 }
 
 .navi {
-  background: darkgrey;
+  background: linear-gradient(to right, black, darkgrey);
   display: flex;
   flex-direction: row;
   justify-content: right;
