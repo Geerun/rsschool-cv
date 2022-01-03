@@ -64,9 +64,12 @@ body {
 }
 
 .dat {
-  padding-top: 10%;
+  background: #ffffff;
+  /* padding-top: 10%; */
+  font-size: larger;
   display: flex;
   justify-content: center;
+  align-items: center;
   
 }
 
