@@ -113,11 +113,11 @@ body {
   color: #ffffff;
 }
 
-.nav {
+.navi {
   background: darkgrey;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: right;
 }
 
 .ulnav {
