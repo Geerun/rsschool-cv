@@ -130,3 +130,7 @@ body {
 .linav {
   list-style-type: none;
 }
+
+.techul {
+  line-height: 200%;
+}
