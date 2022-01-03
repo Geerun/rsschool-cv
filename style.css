@@ -64,12 +64,14 @@ body {
 } */
 
 .dat {
+  margin-bottom: 0;
   background: #ffffff;
   /* padding-top: 10%; */
   font-size: larger;
   display: flex;
   justify-content: center;
   align-items: center;
+  
   
 }
 
