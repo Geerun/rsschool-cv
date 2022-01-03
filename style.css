@@ -118,6 +118,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: right;
+  height: 5ch;
 }
 
 .ulnav {
