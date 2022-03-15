@@ -10,7 +10,7 @@ _CV (Curriculum Vitae)_
 > 
 > Nationality: Russian Federation
 > 
-> Educational Qualification: College Graduate
+> Educational Qualification: College Graduate 2002
 
 
 ## Contacts
