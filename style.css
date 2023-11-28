@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background-color: gray;
+  
+}
+
+.heada {
+  background-color: darkgoldenrod;
+  counter-reset: #000000;
+  padding: 5px;
+  padding-left: 20px;
+  font-size: large;
+  font-weight: 900;
+  color: #ffffff;
+  opacity:0.4; position:absolute; top:250px; left:25px; right:25px;  
+}
+
+.leftside {
+  margin-top: 0%;
+  padding-left: 10px;
+  background-color: black;
+  float: left;
+  width: 300;
+  
+}
+
+.avatar {
+  
+  margin: 0;
+}
+
+.rightside {
+  
+  background-color: grey;
+  margin-left: 40%;
+  
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.name_string {
+  text-transform: uppercase;
+}
+
+.profession_string {
+  background-color: black;
+  color: darkgoldenrod;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.nickname_string {
+  font-family: cursive;  
+}
+
+.text1 {
+  padding-top: 5%;
+}
+
+/* .text2 {
+  padding-top: 10%;
+} */
+
+.dat {
+  margin-bottom: 0;
+  background: #ffffff;
+  /* padding-top: 10%; */
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.left_contact {
+  background-color: black;
+  color: darkgoldenrod;
+  text-transform: uppercase;
+  margin-right: 10%;
+  float: right;
+}
+
+.line {
+  border-bottom: 1px groove darkgoldenrod;
+}
+
+.profline {
+  width: 100%; 
+}
+
+.edu {
+  background-color: darkgoldenrod;
+  color: black;
+  margin-left: 5px;
+}
+
+.edu2 {
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  color: #ffffff;
+  background-color: dimgray;
+  margin-top: 0;
+
+}
+
+.techskil {
+  color: #ffffff;
+}
