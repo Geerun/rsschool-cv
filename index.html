@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geerun Portfolio</title>
+</head>
+<body>
+    <aside class="leftside">
+            <div><img class="avatar" src="foto.jpg" alt="Foto" height="300"></div>
+            <div><p class="left_contact">contacts</p></div>
+            <div class="line"></div>
+            <div class="techskil">
+            <p>Cellphone: +79270033093</p>
+            <p>E-mail: bestgeerun@gmail.com</p>
+            <p>Website: <a href="https://geerun.github.io/rsschool-cv/">Geerun CV</a></p>
+            <a href="https://geerun.github.io/rsschool-cv/cv">#CV from RSSchool</a>
+            <p>Location: Russia, Togliatty</p>
+            </div>
+            <br>
+            <div class="edu">
+                <h3>EDUCATION</h3>
+            </div>
+            <div class="edu2">
+                <p>Software engineer</p>
+                <p>TPC 1998-2002</p>
+                <p>RS School. JS/FE Pre-School 2021-2022</p>
+                <p>RS School. JS/FE School 2023</p>
+            </div>
+            <br>
+            <div class="techskil">
+                <p class="left_contact">TECH and Other SKILLS</p>
+                <div class="line"></div>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Git</p>
+                <p>English. Good reading and translating ability</p>
+            </div>
+    </aside>
+    <section class="rightside">
+            <h1 class="name_string">Eugene Doroshenko</h1>
+            <div class="profline"><h3 class="profession_string">Junior Frontend Developer</h3></div>
+            <h3 class="nickname_string">Nickname: Geerun</h3>
+            <h3 class="text1">Me</h3>
+            <p>In 2002, I studied to be a programmer, but I didn't work in my specialty. Until 2020, it was just my hobby. Now I seriously intend to recover in the profession. Become a developer. This is a surprisingly interesting case. I start my journey with RS School.</p>
+            <h3>Objective</h3>
+            <p class="text2">Change the current position. Become a Web developer. Change my life.</p>
+            <h3>Code example</h3>
+                <h4>Deactivating the right mouse button</h4>
+            <pre>
+        function f1() {
+            if(document.all) { return false; }
+              }
+        function f2(e) {
+            if(document.layers || (document.getElementById ! document.all)) {
+              if(e.which==2 || e.which==3) { return false; }
+                }
+              }
+            if(document.layers) {
+               document.captureEvents(Event.MOUSEDOWN);
+               document.onmousedown = f1;
+              }
+            else {
+               document.onmouseup = f2;
+               document.oncontextmenu = f1;
+              }
+            document.oncontextmenu = new function("return false");
+          </pre>
+    </section>
+    <footer class="dat">
+        <div> - 2023 -</div>
+        <a href="https://rs.school/index.html"><img src="logorss.png" alt="RSSchool Logo" height="50"></a>
+    </footer>
+        <div class="heada">
+            <p>Be a Person. Not a resume. ~ Sharad Vivek Sagar</p>
+        </div>
+</body>
+</html>
