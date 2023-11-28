@@ -1,5 +1,5 @@
 # ~ rsschool-cv ~
-CV# Some Markdown, HTML, CSS &amp; Git
+Some Markdown, HTML, CSS &amp; Git
 
 <h1 align="center">Hi there, I'm <a href="https://geerun.github.io/rsschool-cv/" target="_blank">Geerun</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
